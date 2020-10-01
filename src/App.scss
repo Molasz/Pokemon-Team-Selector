@@ -1,0 +1,15 @@
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 767px) {
+  .container {
+    flex-direction: row;
+  }
+}
