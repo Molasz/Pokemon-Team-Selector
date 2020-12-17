@@ -16,7 +16,7 @@ function PokemonList({
 }): JSX.Element {
   useEffect(() => {
     dispatch(morePokemon(state.next));
-  }, [dispatch]);
+  }, [dispatch, state.next]);
 
   const list = state?.pokemon?.map((element) => {
     return (
