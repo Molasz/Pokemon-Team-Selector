@@ -1,8 +1,18 @@
-### Pokemon Team Selector
-- Este es un pequeño proyecto que hice justo después de acabar el bootcamp en Skylab Coders Academy
+# Pokemon Team Selector
 
-- En este proyecto esta usando React, TypeScript y Redux
+Typescript application, [React](https://react.dev/) as framework, [Redux](https://redux.js.org/) as state management.
 
-- Buscaba aprender un poco de typescript y que mejor para aprender que montar un pequeño proyecto.
+## Links
 
-- Si quieres ver la app en funcionamiento puedes verla en el siguiente link https://happy-lumiere-d5a442.netlify.app/ 
+- [GitHub](https://github.com/Molasz/Pokemon-Team-Selector)
+- [Live Demo](https://happy-lumiere-d5a442.netlify.app/)
+
+## Setup
+
+```bash
+# Install dependencies
+npm install
+
+# Run the local server
+npm run start
+```
